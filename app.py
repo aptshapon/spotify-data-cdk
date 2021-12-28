@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import aws_cdk as cdk
+import aws_cdk.core as cdk
 
-from spotify_data_cdk.spotify_data_cdk_stack import SpotifyDataCdkStack
+from spotify_data_cdk.data_stack import SpotifyDataCdkStack
 
 
 app = cdk.App()

@@ -1,6 +1,6 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
-from spotify_data_cdk.spotify_data_cdk_stack import SpotifyDataCdkStack
+from spotify_data_cdk.data_stack import SpotifyDataCdkStack
 
 
 def test_sqs_queue_created():
